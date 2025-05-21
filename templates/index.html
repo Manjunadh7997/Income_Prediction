@@ -1,0 +1,420 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+    <head>
+        <!-- meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+        
+        <!-- title of site -->
+        <title>Directory Landing Page</title>
+
+        <!-- For favicon png -->
+		<link rel="shortcut icon" type="image/icon" href="static/assets/logo/favicon.png"/>
+       
+        <!--font-awesome.min.css-->
+        <link rel="stylesheet" href="static/assets/css/font-awesome.min.css">
+
+        <!--linear icon css-->
+		<link rel="stylesheet" href="static/assets/css/linearicons.css">
+
+		<!--animate.css-->
+        <link rel="stylesheet" href="static/assets/css/animate.css">
+
+		<!--flaticon.css-->
+        <link rel="stylesheet" href="static/assets/css/flaticon.css">
+
+		<!--slick.css-->
+        <link rel="stylesheet" href="static/assets/css/slick.css">
+		<link rel="stylesheet" href="static/assets/css/slick-theme.css">
+		
+        <!--bootstrap.min.css-->
+        <link rel="stylesheet" href="static/assets/css/bootstrap.min.css">
+		
+		<!-- bootsnav -->
+		<link rel="stylesheet" href="static/assets/css/bootsnav.css" >	
+        
+        <!--style.css-->
+        <link rel="stylesheet" href="static/assets/css/style.css">
+        
+        <!--responsive.css-->
+        <link rel="stylesheet" href="static/assets/css/responsive.css">
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		
+        <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+	
+	<body>
+		<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+		
+		
+
+		<!-- top-area Start -->
+		<section class="top-area">
+			<div class="header-area">
+				<!-- Start Navigation -->
+			    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+
+			        <div class="container">
+
+			            <!-- Start Header Navigation -->
+			            <div class="navbar-header">
+			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+			                    <i class="fa fa-bars"></i>
+			                </button>
+			               
+
+			            </div><!--/.navbar-header-->
+			            <!-- End Header Navigation -->
+
+			            <!-- Collect the nav links, forms, and other content for toggling -->
+			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+			                    <li class=" scroll active"><a href="#home">home</a></li>
+			                    <li class="scroll"><a href="#works">Why Prediction</a></li>
+			                    <li class="move"><a href="{{ url_for('predict') }}">Predict</a></li>
+			                    <li class="scroll"><a href="#reviews">Investments</a></li>
+			                    <li class="scroll"><a href="#contact">contact</a></li>
+			                </ul><!--/.nav -->
+			            </div><!-- /.navbar-collapse -->
+			        </div><!--/.container-->
+			    </nav><!--/nav-->
+			    <!-- End Navigation -->
+			</div><!--/.header-area-->
+		    <div class="clearfix"></div>
+
+		</section><!-- /.top-area-->
+		<!-- top-area End -->
+
+		<!--welcome-hero start -->
+		<section id="home" class="welcome-hero">
+			<div class="container">
+				<div class="welcome-hero-txt">
+					<h2>Financial Forecasting with Adult Income Prediction Models</h2><br><br><br>
+					<p>Predict Income<br>&<br>
+						Plan for Future </p>
+					
+				</div>
+				
+			</div>
+
+		</section><!--/.welcome-hero-->
+		<!--welcome-hero end -->
+
+		<!--list-topics start -->
+		<section id="list-topics" class="list-topics">
+			<div class="container">
+				<div class="list-topics-content">
+					<ul>
+						
+						
+						
+				</div>
+			</div><!--/.container-->
+
+		</section><!--/.list-topics-->
+		<!--list-topics end-->
+			<br>
+		<!--works start -->
+		<section id="works" class="works">
+			<div class="container">
+				<div class="section-header">
+					<BR><BR>
+					<h2>Why Prediction</h2>
+					<p>Importance of Prediction and its features </p>
+					<P>Predicting income is crucial for effective budgeting, loan assessment, and retirement planning, ensuring individuals and institutions maintain financial stability. It aids governments in policy making, businesses in strategic planning, and investors in making informed decisions. Accurate income predictions contribute to social stability by reducing poverty and economic disparities. Overall, it fosters a resilient and prosperous society through better financial decisions and risk management.</P>
+			<br><br>
+				</div><!--/.section-header-->
+				<div class="works-content">
+					<div class="row">
+						<div class="col-md-4 col-sm-6">
+							<div class="single-how-works">
+								<div class="single-how-works-icon">
+									<i class="flaticon-lightbulb-idea"></i>
+								</div>
+								<h2><a href="#">Vison of Future in Finance</h2>
+								<p>
+									Taking financial decisions like loan assessments, and retirement planning, better financial stability and reduced risk in advance. 
+								</p>
+								<button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+									read more
+								</button>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-how-works">
+								<div class="single-how-works-icon">
+									<i class="flaticon-networking"></i>
+								</div>
+								<h2><a href="#">Liabilities and asserts </a></h2>
+								<p>
+									Settlements of Liabilities and Asserts can be planed Previously by predicting the Income in Advance for more Financial stability.
+								</p>
+								<button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+									read more
+								</button>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div><!--/.container-->
+		
+		</section><!--/.works-->
+		<!--works end -->
+
+		
+
+		<!--reviews start -->
+		<section id="reviews" class="reviews">
+			<div class="section-header">
+				<h2>Mode of Investments</h2>
+				<p>Investments has be diversified in the below ways</p><br>
+				</div><!--/.section-header-->
+			<br>
+				<div class="testimonial">
+					<div class="single-testimonial-box-1">
+						<div class="testimonial-description">
+							<div class="testimonial-info">
+								<div class="testimonial-img-1">
+									<img src="static/assets/images/clients/fixed_deposite.png" alt="clients">
+								</div><!--/.testimonial-img-->
+								<div class="testimonial-person">
+									<h2>Fixed Deposites</h2>
+									<h4>Cash</h4>
+									<div class="testimonial-person-star">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+								</div><!--/.testimonial-person-->
+							</div><!--/.testimonial-info-->
+							<div class="testimonial-comment">
+								<p>
+									Fixed deposits offers stable and secure investment option, offering guaranteed returns and capital protection.
+								<div class="explore_button">
+									<button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+										explore more
+									</button>
+								</div>
+							</div><!--/.testimonial-comment-->
+						</div><!--/.testimonial-description-->	
+					</div>
+					<div class="single-testimonial-box-2">
+						<div class="testimonial-description">
+							<div class="testimonial-info">
+								<div class="testimonial-img-2">
+									<img src="static\assets\images\clients\mutual_funds.png" alt="clients">
+								</div><!--/.testimonial-img-->
+								<div class="testimonial-person">
+									<h2>Mutual Funds</h2>
+									<h4>Bonds</h4>
+									<div class="testimonial-person-star">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+								</div><!--/.testimonial-person-->
+							</div><!--/.testimonial-info-->
+							<div class="testimonial-comment">
+								<p>
+									Investment In Mutual Funds will be a Great Opportunity for the Strong Financial Stability 
+								</p>
+								<div class="explore_button">
+									<button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+										explore more
+									</button>
+								</div>
+							</div><!--/.testimonial-comment-->
+						</div><!--/.testimonial-description-->	
+					</div>
+					<div class="single-testimonial-box-3">
+						<div class="testimonial-description">
+							<div class="testimonial-info">
+								<div class="testimonial-img-3">
+									<img src="static/assets/images/clients/stock_market.png" alt="clients">
+								</div><!--/.testimonial-img-->
+								<div class="testimonial-person">
+									<h2>Stock Market</h2>
+									<h4>Stocks</h4>
+									<div class="testimonial-person-star">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+								</div><!--/.testimonial-person-->
+							</div><!--/.testimonial-info-->
+							<div class="testimonial-comment">
+								<p>
+									Stock markets impacts Financial status by capital appreciation and dividend income, aiding in long-term goals.
+								</p>
+								<div class="explore_button">
+									<button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+										explore more
+									</button>
+								</div>
+							</div><!--/.testimonial-comment-->
+						</div><!--/.testimonial-description-->	
+					</div>
+				</div><br><br>
+						
+					
+			   
+				</div><br>
+				
+
+		</section><!--/.reviews-->
+		<!--reviews end -->
+		<br><br>
+		<!-- statistics strat -->
+		<!-- <section id="statistics"  class="statistics">
+			<div class="container">
+				<div class="statistics-counter"> 
+					<div class="result"style="margin-left: 15%;">
+						{% if result %}
+						<h3 >Prediction Results </h3><br><br>
+						<h2 style="color: #FFFF;"><B>{{ result }}</B></h2>
+						{% endif %}				
+					</div>
+					
+					
+					
+				</div>/.statistics-counter-->	
+			</div>
+
+		</section><!--/.counter-->	
+		<!-- statistics end -->
+		<!--subscription strat -->
+		<section id="contact"  class="subscription">
+			<div class="container">
+				<div class="subscribe-title text-center">
+					<h2>
+						do you want to add your business listing with us?
+					</h2>
+					<p>
+						Listrace offer you to list your business with us and we very much able to promote your Business.
+					</p>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="subscription-input-group">
+							<form action="#">
+								<input type="email" class="subscription-input-form" placeholder="Enter your email here">
+								<button class="appsLand-btn subscribe-btn" onclick="window.location.href='#'">
+									creat account
+								</button>
+							</form>
+						</div>
+					</div>	
+				</div>
+			</div>
+
+		</section><!--/subscription-->	
+		<!--subscription end -->
+
+		<!--footer start-->
+		<footer id="footer"  class="footer">
+			<div class="container">
+				<div class="footer-menu">
+		           	<div class="row">
+						<p> Copy rights reserved @ 2024</p>
+			           	<!-- <div class="col-sm-3">
+			           		 <div class="navbar-header">
+				                
+				            </div><!--/.navbar-header-->
+			           	<!-- </div> -->
+			           	<!-- <div class="col-sm-9">
+			           		<ul class="footer-menu-item">
+			                    <li class="scroll"><a href="#works">Why predictions</a></li>
+			                    <li class="scroll"><a href="#explore">explore</a></li>
+			                    <li class="scroll"><a href="#reviews">review</a></li>
+			                    <li class="scroll"><a href="#blog">blog</a></li>
+			                    
+			                </ul><!--/.nav -->
+			           	<!-- </div> -->
+		           </div>
+				</div>
+				<div class="hm-footer-copyright">
+					<div class="row">
+						<!-- <div class="col-sm-5">
+							<p>
+								&copy;copyright. designed and developed by <a href="https://www.themesine.com/">themesine</a>
+							</p><!--/p-->
+						<!-- </div> -->
+						<div class="col-sm-7">
+							<div class="footer-social">
+								<span><i class="fa fa-phone"> +1  (222) 777 8888</i></span>
+								<a href="#"><i class="fa fa-facebook"></i></a>	
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-linkedin"></i></a>
+								<a href="#"><i class="fa fa-google-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					
+				</div><!--/.hm-footer-copyright-->
+			</div><!--/.container-->
+
+			<div id="scroll-Top">
+				<div class="return-to-top">
+					<i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+				</div>
+				
+			</div><!--/.scroll-Top-->
+			
+        </footer><!--/.footer-->
+		<!--footer end-->
+		
+		<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+		<script src="static/assets/js/jquery.js"></script>
+        
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!--bootstrap.min.js-->
+        <script src="static/assets/js/bootstrap.min.js"></script>
+		
+		<!-- bootsnav js -->
+		<script src="static/assets/js/bootsnav.js"></script>
+
+        <!--feather.min.js-->
+        <script  src="static/assets/js/feather.min.js"></script>
+
+        <!-- counter js -->
+		<script src="static/assets/js/jquery.counterup.min.js"></script>
+		<script src="static/assets/js/waypoints.min.js"></script>
+
+        <!--slick.min.js-->
+        <script src="static/assets/js/slick.min.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+		     
+        <!--Custom JS-->
+        <script src="static/assets/js/custom.js"></script>
+		<script>
+			document.getElementById("submit").onclick = function() {
+				window.location.href = "result.html";
+			};
+		</script>
+        
+    </body>
+	
+</html>
